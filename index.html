@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CargoNest – Warehouse Rental</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="menu-btn" id="menuBtn" onclick="toggleMenu()">☰</div>
+
+<div class="sidebar" id="sidebar">
+  <a href="#home" onclick="toggleMenu()">Home</a>
+  <a href="#details" onclick="toggleMenu()">Details</a>
+  <a href="#features" onclick="toggleMenu()">Features</a>
+  <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+
+<header>
+  <h2>CargoNest</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#details">Details</a>
+    <a href="#features">Features</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <div class="layer">
+    <h1>Grade A Warehouse for Rent</h1>
+    <p>50,000 Sqft | Kantabada, Bhubaneswar | ₹25/Sqft</p>
+    <button class="btn">Enquire Now</button>
+  </div>
+</div>
+
+<section id="details">
+<h3>Property Overview</h3>
+<div class="overview-grid">
+  <div class="card">Total Area<b>50,000 Sqft</b></div>
+  <div class="card">Covered Area<b>35,000 Sqft</b></div>
+  <div class="card">Open Area<b>15,000 Sqft</b></div>
+  <div class="card">Road Width<b>100 FT</b></div>
+  <div class="card">Zoning<b>Commercial</b></div>
+  <div class="card">Rent<b>₹25 / Sqft</b></div>
+</div>
+</section>
+
+<section id="features">
+<h3>Key Features</h3>
+<div class="features-grid">
+  <div class="card">Grade A Construction</div>
+  <div class="card">Fire Safety System</div>
+  <div class="card">Personal Transformer</div>
+  <div class="card">Drainage System</div>
+  <div class="card">Boundary Wall</div>
+  <div class="card">Security Staff</div>
+  <div class="card">Washrooms</div>
+  <div class="card">Loading / Unloading</div>
+</div>
+</section>
+
+<section id="gallery">
+<h3>Warehouse Gallery</h3>
+<div class="gallery" id="galleryBox"></div>
+</section>
+
+<section id="contact">
+<h3>Contact Us</h3>
+<div class="contact">
+  <div>
+    <p><b>Kumar Property – Bhubaneswar</b></p>
+    <p>📞 +91 77498 92855</p>
+    <p>👤 Ajit – Kumar Property</p>
+    <p>⏰ Immediate Possession</p>
+  </div>
+  <div>
+    <input placeholder="Your Name">
+    <input placeholder="Phone Number">
+    <input placeholder="Email">
+    <textarea rows="4" placeholder="Message"></textarea>
+    <button class="btn">Submit</button>
+  </div>
+</div>
+</section>
+
+<footer>© 2026 CargoNest – Commercial Warehouse Rental</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
